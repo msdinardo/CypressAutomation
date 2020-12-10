@@ -14,7 +14,7 @@ describe('Shopping Cart Test Suite', function()
     //First Test Case
     it('Two Way Binding Test Case',function(){ 
         var hPage = new homePage();
-        cy.visit('https://rahulshettyacademy.com/angularpractice/')
+        cy.visit(Cypress.env('URL-Testing'));
         
         //Fill Up the fields
         hPage.getName().type(this.data.name);
@@ -25,7 +25,7 @@ describe('Shopping Cart Test Suite', function()
     
     it('Submit Form Test Case',function(){ 
       var hPage = new homePage();
-      cy.visit('https://rahulshettyacademy.com/angularpractice/')
+      cy.visit(Cypress.env('URL-Testing'));
       
       //Fill Up the fields
       hPage.getName().type(this.data.name);
