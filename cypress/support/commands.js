@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("addToCart",(articleName) => {
+    cy.get('app-card').each(($el,index,$list) =>
+    {
+        var localName = $el.find('.card-title a').text();
+        if(localName === articleName)
+        {
+            $el.find('button.btn.btn-info').click();
+        }
+    })
+})

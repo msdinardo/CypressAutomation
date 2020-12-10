@@ -1,0 +1,8 @@
+{
+    "name":"Jane Doe",
+    "email":"jane@doe.com",
+    "password":"password",
+    "gender":"Female",
+    "birthDate":"2000-12-31",
+    "successFeedback":"Success! The Form has been submitted successfully!."
+}
