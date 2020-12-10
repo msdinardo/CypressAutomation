@@ -1,1 +1,8 @@
-{}
+{
+    "env":
+    {
+        "URL-Production":"https://rahulshettyacademy.com/angularpractice/",
+        "URL-UAT":"https://rahulshettyacademy.com/angularpractice/",
+        "URL-Testing":"https://rahulshettyacademy.com/angularpractice/"
+    }
+}
