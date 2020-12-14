@@ -1,5 +1,5 @@
 //Import the pageObject class
-import homePage from '../pageObject/homePage';
+import homePage from '../../support/pageObject/homePage';
 
 //Test Suite
 describe('Shopping Cart Test Suite', function()

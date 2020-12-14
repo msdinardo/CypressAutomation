@@ -1,7 +1,7 @@
 //Import the pageObject class
-import homePage from '../pageObject/homePage';
-import shoppingPage from '../pageObject/shoppingPage';
-import checkoutPage from '../pageObject/checkoutPage';
+import homePage from '../../support/pageObject/homePage';
+import shoppingPage from '../../support/pageObject/shoppingPage';
+import checkoutPage from '../../support/pageObject/checkoutPage';
 
 //Test Suite
 describe('Shopping Cart Test Suite', function () {
@@ -18,7 +18,7 @@ describe('Shopping Cart Test Suite', function () {
 
     it('Submit Form Test Case', function () {
         var hPage = new homePage();
-        var sPage = new shoppingPage();
+        var sPage = new shoppingPage()
 
         cy.visit(Cypress.env('URL-Testing'));
 
