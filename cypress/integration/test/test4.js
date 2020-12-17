@@ -13,7 +13,7 @@ describe('Control Automation Test Suite', function()
 
                //Segunda forma de hacerlo con JQuery (mas simple)
                var price = $el.next().text();
-               expect(price).to.equal('24');
+               expect(price).to.equal('25');
             }
         })
     })
