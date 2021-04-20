@@ -1,2 +1,2 @@
 # CypressAutomation
-Test for the Cypress Automation Course
+Test for the Cypress Automation Course from Udemy
